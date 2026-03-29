@@ -1,7 +1,7 @@
 """
-Streamlit UI — Agentic Resolve Ecom
+Streamlit UI — ResolveAI
 4-Agent AI Support Pipeline | Gemini 3.1 Flash Lite ⚡
-India-Ready | UPI · Credit Card · Cash on Delivery
+UPI · Credit Card · Cash on Delivery
 """
 
 import streamlit as st
@@ -33,7 +33,7 @@ from config.settings import settings
 # Page Config
 # ════════════════════════════════════════════════════
 st.set_page_config(
-    page_title="Agentic Resolve Ecom",
+    page_title="ResolveAI",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -478,15 +478,15 @@ if not st.session_state.initialized and st.session_state.init_error is None:
 st.markdown("""
 <div class="hero-wrap">
     <p class="hero-eyebrow">⚡ Powered by Gemini 3.1 Flash Lite</p>
-    <h1 class="hero-title">Agentic Resolve Ecom</h1>
-    <p class="hero-sub">4-Agent RAG Pipeline &nbsp;·&nbsp; Compliance Loop &nbsp;·&nbsp; India-Ready</p>
+    <h1 class="hero-title">ResolveAI</h1>
+    <p class="hero-sub">4-Agent RAG Pipeline &nbsp;·&nbsp; Compliance Loop &nbsp;·&nbsp; Zero-Hallucination Guardrails</p>
     <div class="badge-row">
         <span class="badge">CrewAI</span>
         <span class="badge">LangChain</span>
         <span class="badge">FAISS</span>
         <span class="badge badge-cyan">Gemini 3.1 Flash Lite ⚡</span>
         <span class="badge">HuggingFace Embeddings</span>
-        <span class="badge">UPI Ready 🇮🇳</span>
+        <span class="badge">Multi-Payment Support</span>
         <span class="badge">4 AI Agents</span>
     </div>
 </div>
@@ -805,7 +805,7 @@ with tab1:
 # ═══════════════════════════════════════════════
 with tab2:
     st.markdown("### 📋 Pre-Built Test Tickets")
-    st.caption("23 India-contextualized tickets covering standard, exception, conflict, escalation, and edge-case scenarios.")
+    st.caption("23 pre-built tickets covering standard, exception, conflict, escalation, and edge-case scenarios.")
 
     samples_path = os.path.join(os.path.dirname(__file__), "tests", "test_tickets.json")
     if os.path.exists(samples_path):

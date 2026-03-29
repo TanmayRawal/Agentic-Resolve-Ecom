@@ -105,7 +105,7 @@ def send_resolution_email(
                             <p style="margin: 0 0 4px 0; font-size: 13px; color: rgba(255,255,255,0.7);">This message was sent by the Customer Support Team.</p>
                             <p style="margin: 0; font-size: 12px; color: rgba(255,255,255,0.4);">Please do not reply to this email. For further assistance, open a new ticket.</p>
                             <div style="margin-top: 16px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.1);">
-                                <p style="margin: 0; font-size: 11px; color: rgba(255,255,255,0.3);">Powered by Agentic Resolve Ecom &nbsp;|&nbsp; Gemini 3.1 Flash Lite ⚡</p>
+                                <p style="margin: 0; font-size: 11px; color: rgba(255,255,255,0.3);">Powered by ResolveAI &nbsp;|&nbsp; Gemini 3.1 Flash Lite ⚡</p>
                             </div>
                         </td>
                     </tr>

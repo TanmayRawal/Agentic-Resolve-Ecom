@@ -29,9 +29,9 @@
   <!-- Accent bar -->
   <rect x="60" y="60" width="4" height="80" rx="2" fill="url(#accent)"/>
   <!-- Title text -->
-  <text x="84" y="105" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="36" font-weight="900" fill="white" filter="url(#glow)">Agentic Resolve Ecom</text>
+  <text x="84" y="105" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="36" font-weight="900" fill="white" filter="url(#glow)">ResolveAI</text>
   <!-- Subtitle -->
-  <text x="84" y="132" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="14" fill="rgba(255,255,255,0.45)">4-Agent RAG Pipeline  ·  Gemini 3.1 Flash Lite  ·  India-Ready</text>
+  <text x="84" y="132" font-family="'SF Pro Display', -apple-system, sans-serif" font-size="14" fill="rgba(255,255,255,0.45)">4-Agent RAG Pipeline  ·  Gemini 3.1 Flash Lite  ·  Zero-Hallucination Guardrails</text>
   <!-- Badge row -->
   <rect x="84" y="148" width="90" height="22" rx="11" fill="rgba(139,92,246,0.2)" stroke="rgba(139,92,246,0.4)" stroke-width="1"/>
   <text x="129" y="163" font-family="sans-serif" font-size="11" fill="#c4b5fd" text-anchor="middle">CrewAI</text>
@@ -42,7 +42,7 @@
   <rect x="358" y="148" width="100" height="22" rx="11" fill="rgba(6,182,212,0.15)" stroke="rgba(6,182,212,0.4)" stroke-width="1"/>
   <text x="408" y="163" font-family="sans-serif" font-size="11" fill="#67e8f9" text-anchor="middle">Gemini 3.1 ⚡</text>
   <rect x="466" y="148" width="80" height="22" rx="11" fill="rgba(52,211,153,0.15)" stroke="rgba(52,211,153,0.4)" stroke-width="1"/>
-  <text x="506" y="163" font-family="sans-serif" font-size="11" fill="#34d399" text-anchor="middle">🇮🇳 UPI Ready</text>
+  <text x="506" y="163" font-family="sans-serif" font-size="11" fill="#34d399" text-anchor="middle">Multi-Payment</text>
 </svg>
 
 <br/>
@@ -51,7 +51,7 @@
 [![Gemini](https://img.shields.io/badge/Gemini-3.1_Flash_Lite-blueviolet?style=flat-square&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
 [![CrewAI](https://img.shields.io/badge/CrewAI-Orchestration-orange?style=flat-square)](https://crewai.com)
 [![FAISS](https://img.shields.io/badge/FAISS-Vector_Store-red?style=flat-square)](https://github.com/facebookresearch/faiss)
-[![India](https://img.shields.io/badge/India_Ready-UPI_%7C_COD_%7C_INR-green?style=flat-square)](https://www.npci.org.in/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-gray?style=flat-square)](LICENSE)
 
 </div>
@@ -61,8 +61,6 @@
 ## What This Is
 
 A production-grade, multi-agent AI system that automatically resolves e-commerce customer support tickets. Four specialized AI agents work sequentially — each with a distinct role — to produce empathetic, policy-grounded responses with zero hallucinations.
-
-Built as an intern assessment submission for **Purple Merit Technologies**, this system demonstrates real-world agentic RAG architecture with compliance enforcement, India localization, and actual email dispatch.
 
 ---
 
@@ -134,7 +132,7 @@ flowchart LR
 
 | Feature | Details |
 | :--- | :--- |
-| **🇮🇳 India-First** | INR pricing, UPI / Credit Card / Cash on Delivery, Indian customer data |
+| **💳 Multi-Payment** | UPI, Credit / Debit Card, and Cash on Delivery support built-in |
 | **🛡️ Zero-Hallucination** | Mandatory compliance loop — every factual claim verified against source docs |
 | **📎 100% Citation Rate** | All responses cite specific policy sections with document + section names |
 | **📧 Email Dispatch** | Sends formatted HTML email to customer via Gmail SMTP after resolution |
@@ -239,7 +237,7 @@ AGENTIC_AI/
 │   └── vectorstore/
 │       └── store.py              # FAISS wrapper
 ├── tests/
-│   ├── test_tickets.json         # 23 India-contextualized test tickets
+│   ├── test_tickets.json         # 23 pre-built test tickets
 │   └── evaluate.py               # Automated evaluation harness
 └── evaluation_results/           # Generated reports (post-evaluation)
 ```
@@ -263,8 +261,8 @@ The 13 synthetic policy documents cover:
 
 <div align="center">
 
-**Built for the Purple Merit Technologies AI/ML Engineer Intern Assessment — 2026**
+**ResolveAI — Production-Grade Multi-Agent Support Resolution · 2026**
 
-*Gemini 3.1 Flash Lite ⚡ · CrewAI · FAISS · Streamlit · India-Ready 🇮🇳*
+*Gemini 3.1 Flash Lite ⚡ · CrewAI · FAISS · Streamlit*
 
 </div>
