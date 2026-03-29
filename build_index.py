@@ -17,7 +17,7 @@ from src.vectorstore.store import PolicyVectorStore
 def build():
     """Build the FAISS vector store from policy documents."""
     print("=" * 60)
-    print("  The Platform Policy Vector Store Builder")
+    print("  ResolveAI — Policy Vector Store Builder")
     print("=" * 60)
     print()
 

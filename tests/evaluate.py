@@ -1,5 +1,5 @@
 """
-Evaluation suite for ResolveAI.
+Evaluation script for the E-commerce Support Resolution Agent.
 Runs test tickets through the pipeline and computes metrics.
 """
 
