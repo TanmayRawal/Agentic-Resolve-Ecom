@@ -1,8 +1,8 @@
-# Environment
+# ── Environment ───────────────────────────────
 .env
 *.env
 
-# Python
+# ── Python ────────────────────────────────────
 __pycache__/
 *.pyc
 *.pyo
@@ -10,20 +10,25 @@ __pycache__/
 dist/
 build/
 
-# Vector store (can be rebuilt)
+# ── Vector Store (auto-rebuilt at startup) ────
+data/vectorstore_hf/
 data/vectorstore/
 
-# Evaluation results (keep latest report for reference)
+# ── Docs images (replaced by /screenshots) ───
+docs/images/
 
-# IDE
+# ── Evaluation raw JSON (keep .md reports) ───
+evaluation_results/*.json
+
+# ── IDE ───────────────────────────────────────
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS
+# ── OS ────────────────────────────────────────
 .DS_Store
 Thumbs.db
 
-# Assessment PDF (don't push to public repos)
+# ── Assessment PDF (keep off public repos) ────
 *.pdf
