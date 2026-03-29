@@ -195,11 +195,8 @@ copy .env.example .env
 Edit `.env` and add:
 ```
 GOOGLE_API_KEY=your_gemini_key_here
-SUPPORT_EMAIL=your_gmail@gmail.com
-SUPPORT_EMAIL_PASSWORD=your_16char_app_password
 ```
 
-> **Gmail App Password**: Go to [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords), create an App Password for "Mail", paste the 16-character code above.
 
 ### 3. Build Knowledge Base
 ```bash
