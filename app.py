@@ -26,7 +26,6 @@ from src.models import TicketInput, OrderContext, OrderItem
 from src.orchestrator import SupportOrchestrator
 from src.ingestion.document_loader import DocumentLoader
 from src.vectorstore.store import PolicyVectorStore
-from src.email_sender import send_resolution_email
 from config.settings import settings
 
 # ════════════════════════════════════════════════════
@@ -779,30 +778,6 @@ with tab1:
                     st.divider()
                     st.markdown("### ✅ Resolution Complete")
                     display_result(result, elapsed)
-
-                    # ── Email dispatch ──
-                    st.divider()
-                    st.markdown('<p class="section-title">Send Email to Customer</p>', unsafe_allow_html=True)
-                    col_email, col_status = st.columns([2, 3])
-                    with col_email:
-                        send_btn = st.button("📧 Send Resolution Email", key="send_email_btn")
-                    if send_btn:
-                        support_email = os.getenv("SUPPORT_EMAIL", "")
-                        support_pass = os.getenv("SUPPORT_EMAIL_PASSWORD", "")
-                        with st.spinner("Sending email…"):
-                            email_result = send_resolution_email(
-                                to_email=customer_email,
-                                customer_name=customer_name.split()[0],
-                                ticket_id=ticket_id,
-                                response_text=result.customer_response or "",
-                                citations=result.citations,
-                                support_email=support_email,
-                                support_password=support_pass,
-                            )
-                        if email_result["success"]:
-                            st.success(f"✅ {email_result['message']}")
-                        else:
-                            st.error(f"❌ {email_result['message']}")
 
                 except Exception as e:
                     st.error(f"Error processing ticket: {str(e)}")

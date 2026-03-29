@@ -54,6 +54,10 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-gray?style=flat-square)](LICENSE)
 
+<br/>
+
+[![🚀 Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-resolveai.streamlit.app-7c3aed?style=for-the-badge&logo=streamlit&logoColor=white)](https://resolveai-dwyctpes9kfyykmgimwc2g.streamlit.app/)
+
 </div>
 
 ---
