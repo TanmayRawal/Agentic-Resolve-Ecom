@@ -581,32 +581,47 @@ def from_display(display_val: float) -> float:
     return round(display_val / USD_TO_INR, 4) if USE_INR else display_val
 
 
-def display_result(result, elapsed: float):
-    """Render a pretty result panel."""
+def clean_field(raw, default="—"):
+    """Extract a single clean value from raw multi-line agent output."""
+    if not raw:
+        return default
+    # Take only the first line
+    first = str(raw).strip().split("\n")[0].strip()
+    # Strip label prefixes like "ISSUE_TYPE: refund"
+    for prefix in ["ISSUE_TYPE:", "PRIORITY:", "STATUS:", "TYPE:", "CATEGORY:"]:
+        if first.upper().startswith(prefix):
+            first = first[len(prefix):].strip()
+    # Take the first token only (handles "refund SUB_CATEGORY: ...")
+    first = first.split()[0] if first else default
+    return first.replace("_", " ").title()
 
-    # ── Stat row ──
-    status = result.compliance_status
-    pill_class = "pill-approved" if status == "approved" else "pill-escalated"
-    st.markdown(f"""
-    <div class="stat-row">
-        <div class="stat-card">
-            <div class="stat-val">{result.issue_type or "—"}</div>
-            <div class="stat-lbl">Issue Type</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-val amber">{result.priority or "—"}</div>
-            <div class="stat-lbl">Priority</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-val"><span class="{pill_class} pill">{status}</span></div>
-            <div class="stat-lbl">Compliance</div>
-        </div>
-        <div class="stat-card">
-            <div class="stat-val cyan">{elapsed:.1f}s</div>
-            <div class="stat-lbl">Processing</div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+
+def display_result(result, elapsed: float):
+    """Render a clean, spacious result panel."""
+
+    issue    = clean_field(result.issue_type)
+    priority = clean_field(result.priority)
+    status   = (result.compliance_status or "unknown").strip()
+    rewrites = result.rewrite_count or 0
+
+    # ── Four clean metric columns ──
+    m1, m2, m3, m4 = st.columns(4)
+    with m1:
+        st.metric("🏷️ Issue Type", issue)
+    with m2:
+        pri_icon = {"Critical": "🔴", "High": "🟠", "Medium": "🟡", "Low": "🟢"}.get(priority, "🔵")
+        st.metric(f"{pri_icon} Priority", priority)
+    with m3:
+        status_icon = "✅" if status == "approved" else "⚠️"
+        st.metric(f"{status_icon} Compliance", status.capitalize())
+    with m4:
+        st.metric("⏱️ Processing", f"{elapsed:.1f}s")
+
+    # ── Banners ──
+    if result.requires_escalation:
+        st.error(f"⚠️ **Escalation Required:** {result.escalation_reason}")
+    if rewrites > 0:
+        st.info(f"🔄 Response rewritten {rewrites} time(s) by the Compliance Guard.")
 
     # ── Customer Response ──
     st.markdown('<p class="section-title">Customer Response</p>', unsafe_allow_html=True)
@@ -632,11 +647,7 @@ def display_result(result, elapsed: float):
     with st.expander("🔒 Internal Notes (agent-only)"):
         st.code(result.internal_notes or "No internal notes.", language=None)
 
-    # ── Escalation / Rewrite alerts ──
-    if result.requires_escalation:
-        st.warning(f"⚠️ **Escalation Required:** {result.escalation_reason}")
-    if result.rewrite_count and result.rewrite_count > 0:
-        st.info(f"ℹ️ Response was rewritten {result.rewrite_count} time(s) by the compliance agent.")
+
 
 
 # ════════════════════════════════════════════════════
