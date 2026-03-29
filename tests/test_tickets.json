@@ -4,7 +4,7 @@
     "customer_name": "Arjun Sharma",
     "customer_email": "arjun.sharma@gmail.com",
     "customer_tier": "gold",
-    "ticket_text": "Mera laptop kal aaya tha lekin screen ke bottom-left corner mein crack hai. Box bhi dented tha, clearly shipping mein damage hua hai. Mujhe full refund chahiye. Yeh ₹74,999 ka laptop hai aur main bahut frustrated hoon.",
+    "ticket_text": "I received my ProBook X15 laptop yesterday but the screen has a crack in the bottom-left corner. It was clearly damaged during shipping because the outer box was badly dented. I paid ₹74,999 for this laptop and I want a full refund immediately. I am really frustrated.",
     "order_context": {
       "order_id": "ORD-2026-45678",
       "order_date": "2026-03-20",
@@ -23,7 +23,7 @@
     "customer_name": "Priya Patel",
     "customer_email": "priya.patel@outlook.com",
     "customer_tier": "platinum",
-    "ticket_text": "Maine 2 hafte pehle kitchen knives ka set order kiya tha. Maine box khola aur ek knife use kiya, lekin quality expected jaisi nahi thi. Listing mein 'professional grade' likha tha par yeh sab cheap lag raha hai. Mujhe full refund chahiye.",
+    "ticket_text": "I ordered a kitchen knife set 2 weeks ago and would like to return it. I opened the box and tried one knife but the quality is not what I expected. The listing said 'professional grade' but these feel very cheap. I want a full refund for ₹10,999.",
     "order_context": {
       "order_id": "ORD-2026-45123",
       "order_date": "2026-03-10",
@@ -42,7 +42,7 @@
     "customer_name": "Rahul Verma",
     "customer_email": "rahul.verma@yahoo.com",
     "customer_tier": "bronze",
-    "ticket_text": "Mera order 3 din pehle aana chahiye tha lekin tracking ek hafte se update nahi hui. Last scan Delhi distribution center mein tha. Yeh meri beti ka birthday gift tha, mujhe urgent help chahiye.",
+    "ticket_text": "My order was supposed to arrive 3 days ago but the tracking has not updated in over a week. The last scan was at the Delhi distribution center on March 20. I need this urgently — it is a birthday gift for my daughter. Can you please help?",
     "order_context": {
       "order_id": "ORD-2026-43567",
       "order_date": "2026-03-15",
@@ -65,7 +65,7 @@
     "customer_name": "Sneha Gupta",
     "customer_email": "sneha.gupta@gmail.com",
     "customer_tier": "silver",
-    "ticket_text": "Maine checkout par promo code HOLI25 use karne ki koshish ki 25% off ke liye, lekin 'invalid code' aa raha hai. Yeh code mujhe kal email mein mila. Mere cart mein ₹12,000 ke kapde hain. Please discount manually apply karo.",
+    "ticket_text": "I tried to use the promo code HOLI25 at checkout for 25% off but it says 'invalid code'. I received this code in an email from your platform yesterday. My cart has ₹12,000 worth of clothing items. Please fix this or apply the discount manually.",
     "order_context": null
   },
   {
@@ -73,7 +73,7 @@
     "customer_name": "Ananya Singh",
     "customer_email": "ananya.singh@gmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Maine ek week pehle swimsuit kharida tha par size galat hai. Tags nahi utaare, ghar mein sirf try on kiya. Exchange chahiye. Lekin site par swimwear non-returnable likha hai. Maine bahar kahi nahi pehna, yeh toh unfair hai.",
+    "ticket_text": "I bought a swimsuit last week but it does not fit. I have not removed the tags or worn it outside — just tried it on indoors. I would like to exchange it for a different size. However, I noticed your site says swimwear is non-returnable. I have not used it at all, this seems unfair.",
     "order_context": {
       "order_id": "ORD-2026-44890",
       "order_date": "2026-03-21",
@@ -92,7 +92,7 @@
     "customer_name": "Vikram Nair",
     "customer_email": "vikram.nair@gmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Mere credit card par ₹28,999 aur ₹17,999 ke do charges dikh rahe hain, lekin maine sirf ek order ₹28,999 ka kiya tha. Doosra purchase maine nahi kiya. Kisi ne mera account hack kiya hoga. Turant investigate karo aur unauthorized charge refund karo.",
+    "ticket_text": "I see two charges on my credit card — ₹28,999 and ₹17,999 — but I only placed one order for ₹28,999. I did NOT make the second purchase. Someone may have hacked my account. Please investigate immediately and refund the unauthorized charge.",
     "order_context": {
       "order_id": "ORD-2026-45901",
       "order_date": "2026-03-26",
@@ -114,7 +114,7 @@
     "customer_name": "Deepika Reddy",
     "customer_email": "deepika.reddy@outlook.com",
     "customer_tier": "bronze",
-    "ticket_text": "Maine Hyderabad mein deliver hone wala jacket order kiya tha. ₹15,999 ka jacket aur ₹499 shipping charge diya. Ab courier customs duty maang raha hai. Kisi ne bataya nahi tha extra charges honge. The Platform ko customs fees cover karni chahiye.",
+    "ticket_text": "I ordered a winter jacket to be delivered to Hyderabad, Telangana. I was charged ₹15,999 for the jacket plus ₹499 for shipping. Now the courier is asking me to pay additional customs duties. Nobody told me about extra charges. The Platform should cover these fees.",
     "order_context": {
       "order_id": "ORD-2026-44567",
       "order_date": "2026-03-18",
@@ -134,7 +134,7 @@
     "customer_name": "Rajesh Kumar",
     "customer_email": "rajesh.kumar@gmail.com",
     "customer_tier": "gold",
-    "ticket_text": "Maine ek third-party seller 'KitchenPro Plus' se mixer grinder kharida. 3 hafte mein kaam karna band ho gaya. Seller ko 5 din pehle message kiya, koi jawab nahi. Listing mein 1-year warranty thi. Mujhe refund chahiye.",
+    "ticket_text": "I bought a mixer grinder from a third-party seller called 'KitchenPro Plus' on your marketplace. It stopped working after 3 weeks. I messaged the seller through your platform 5 days ago and have received no reply. The listing said it had a 1-year warranty. I want a refund of ₹6,499.",
     "order_context": {
       "order_id": "ORD-2026-42345",
       "order_date": "2026-03-01",
@@ -154,7 +154,7 @@
     "customer_name": "Kavya Menon",
     "customer_email": "kavya.menon@gmail.com",
     "customer_tier": "platinum",
-    "ticket_text": "Mujhe apna order cancel karna hai. Maine 30 minute pehle place kiya. Dining table aur 4 chairs, total ₹1,04,999. Maine abhi realize kiya ki table meri dining room mein nahi ayega. Please cancel karo.",
+    "ticket_text": "I want to cancel my order placed about 30 minutes ago. It is a Sheesham wood dining table and 4 chairs totaling ₹1,04,999. I just realized the table measurements are too large for my dining room in Bengaluru. Please cancel it before it ships.",
     "order_context": {
       "order_id": "ORD-2026-46001",
       "order_date": "2026-03-28",
@@ -177,7 +177,7 @@
     "customer_name": "Amit Joshi",
     "customer_email": "amit.joshi@rediffmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Maine ek face cream order ki. Use karne ke baad allergic reaction hua. Janta hoon personal care non-returnable hoti hai lekin yeh health issue hai. Full refund chahiye.",
+    "ticket_text": "I purchased a face cream from your site. I applied it once and had a severe allergic reaction. I understand personal care products are non-returnable, but this is a health issue. I want a full refund of ₹1,999.",
     "order_context": {
       "order_id": "ORD-2026-45234",
       "order_date": "2026-03-22",
@@ -196,7 +196,7 @@
     "customer_name": "Pooja Iyer",
     "customer_email": "pooja.iyer@gmail.com",
     "customer_tier": "silver",
-    "ticket_text": "Maine ek hafte pehle wireless earbuds ₹6,999 mein kharidi. Ab woh ₹4,999 mein bik rahi hain. Kya mujhe price difference refund milega? Earbuds bilkul theek hain, bas laga ki zyada pay kiya.",
+    "ticket_text": "I bought boAt Airdopes wireless earbuds last week for ₹6,999. I can see they are now on sale for ₹4,999. Can I get a price difference refund? The earbuds are working great, I just feel I overpaid.",
     "order_context": {
       "order_id": "ORD-2026-45500",
       "order_date": "2026-03-22",
@@ -215,7 +215,7 @@
     "customer_name": "Suresh Pillai",
     "customer_email": "suresh.pillai@gmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Kya main crypto se gaming PC khareed sakta hoon? Aur agar crypto se payment kiya aur return karna pada toh refund kaisa hoga?",
+    "ticket_text": "Can I pay with cryptocurrency for a gaming PC? Also, if I pay with crypto and need to return it later, how does the refund process work?",
     "order_context": null
   },
   {
@@ -223,7 +223,7 @@
     "customer_name": "Nisha Agarwal",
     "customer_email": "nisha.agarwal@gmail.com",
     "customer_tier": "gold",
-    "ticket_text": "Maine ek product order kiya jo 'Sold by TechGadgets, Fulfilled by The Platform' tha. Product clearly nakli hai — brand logo galat spelled hai, packaging fake lag rahi hai. Full refund chahiye aur seller ki report karni hai.",
+    "ticket_text": "I ordered a product listed as 'Sold by TechGadgets, Fulfilled by The Platform'. What arrived is clearly counterfeit — the brand logo is misspelled and the packaging looks completely fake. I want a full refund of ₹2,499 and I want this seller reported and removed.",
     "order_context": {
       "order_id": "ORD-2026-45700",
       "order_date": "2026-03-19",
@@ -243,7 +243,7 @@
     "customer_name": "Meera Krishnan",
     "customer_email": "meera.krishnan@gmail.com",
     "customer_tier": "platinum",
-    "ticket_text": "Mera loyalty points balance 12,500 points dikhata hai lekin maine pichle mahine ₹67,200 ki purchase ki jo 2,016 points deni chahiye thi (3x multiplier for Platinum). Balance 14,516 hona chahiye. Please check aur fix karein.",
+    "ticket_text": "My loyalty points balance shows 12,500 points but I made a purchase of ₹67,200 last month which should have earned me 2,016 points (3x Platinum multiplier). My balance should be 14,516 points. Can you check and correct this?",
     "order_context": null
   },
   {
@@ -251,7 +251,7 @@
     "customer_name": "Rohit Malhotra",
     "customer_email": "rohit.malhotra@hotmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Kya aap Flipkart ke price se match karenge? Wahan same item ₹3,500 sasta hai.",
+    "ticket_text": "I see the same Smart Home Hub I just bought on Flipkart for ₹3,500 less. Are you able to price match? I purchased mine here for ₹12,999.",
     "order_context": {
       "order_id": "ORD-2026-45800",
       "order_date": "2026-03-25",
@@ -270,7 +270,7 @@
     "customer_name": "Sunita Bhatt",
     "customer_email": "sunita.bhatt@gmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Maine laptop order kiya hai aur express delivery Leh, Ladakh mein chahiye. Checkout mein express delivery available nahi dikh rahi. Kyun nahi hai?",
+    "ticket_text": "I want to order a laptop and have it delivered via express shipping to Leh, Ladakh. The checkout page is not showing express delivery as an option for my location. Why is express delivery not available here?",
     "order_context": null
   },
   {
@@ -278,7 +278,7 @@
     "customer_name": "Aditya Rao",
     "customer_email": "aditya.rao@gmail.com",
     "customer_tier": "gold",
-    "ticket_text": "Mera phone jo 10 mahine pehle kharida tha, battery sirf 2 ghante chalti hai. Pehle poora din chalti thi. Phone kabhi gira nahi, paani se door raha. Kya warranty cover hogi? Mere paas extended warranty bhi hai.",
+    "ticket_text": "My Samsung Galaxy S23 purchased 10 months ago now barely lasts 2 hours on a full charge. It used to last the entire day. The phone has never been dropped or exposed to water. Is this battery degradation covered under warranty? I also have the extended warranty plan.",
     "order_context": {
       "order_id": "ORD-2025-38900",
       "order_date": "2025-05-15",
@@ -297,7 +297,7 @@
     "customer_name": "Kiran Desai",
     "customer_email": "kiran.desai@gmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Maine custom-engraved watch order ki thi. Engraving mein spelling mistake hai — mera naam 'Kiran' hai par 'Kiран' engrave kiya. Yeh unki galati hai. Return aur correct replacement chahiye.",
+    "ticket_text": "I ordered a custom-engraved Titan Raga watch. The engraving has a spelling mistake — my name is 'Kiran' but they engraved 'Kiraan'. This is their error, not mine. I typed my name correctly in the customization form. I want a corrected replacement.",
     "order_context": {
       "order_id": "ORD-2026-44100",
       "order_date": "2026-03-10",
@@ -316,7 +316,7 @@
     "customer_name": "Gaurav Tiwari",
     "customer_email": "gaurav.tiwari@gmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Agar aapne yeh abhi fix nahi kiya toh main consumer court mein complaint karunga. Mere account se ek hi order ke do baar charge liye gaye. 3 din se koi help nahi. Yeh cheating hai aur main apna lawyer bula raha hoon.",
+    "ticket_text": "If you do not resolve this immediately, I will file a complaint in the consumer court. I was charged twice for the same order. I have been waiting 3 days and nobody has helped me. This is theft and I am contacting my lawyer now.",
     "order_context": {
       "order_id": "ORD-2026-45999",
       "order_date": "2026-03-25",
@@ -335,7 +335,7 @@
     "customer_name": "Lakshmi Subramaniam",
     "customer_email": "lakshmi.sub@gmail.com",
     "customer_tier": "silver",
-    "ticket_text": "Maine Chennai mein ek order diya. Standard delivery choose ki. 25 din ho gaye, package customs mein 10 din se atka hua hai. Kya The Platform customs clearance mein help kar sakta hai?",
+    "ticket_text": "I placed an order to be delivered to Chennai, Tamil Nadu. It has been 25 days and the package has been stuck in customs for the last 10 days. The tracking shows no movement. Can The Platform help resolve the customs clearance issue?",
     "order_context": {
       "order_id": "ORD-2026-43200",
       "order_date": "2026-03-01",
@@ -355,7 +355,7 @@
     "customer_name": "Harish Chandra",
     "customer_email": "harish.chandra@gmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Aap mere baare mein kya data store karte ho? Main chahta hoon ki mera data delete karo aur advertising ke liye share na ho. Mujhe apni privacy rights ke baare mein jaankari chahiye.",
+    "ticket_text": "What personal data do you store about me? I want to exercise my right to know and request deletion of my data. I also want to opt out of any sharing of my data for advertising purposes.",
     "order_context": null
   },
   {
@@ -363,7 +363,7 @@
     "customer_name": "Rekha Pandey",
     "customer_email": "rekha.pandey@gmail.com",
     "customer_tier": "gold",
-    "ticket_text": "Maine 50 din pehle return kiya tha aur abhi tak refund nahi aaya. Order Diwali purchase ka tha December mein. Return carrier ne February 5 ko pick up kiya. 3 baar call kiya, har baar wait karne ko kaha. Yeh bilkul galat hai.",
+    "ticket_text": "I returned a Banarasi silk saree 50 days ago and still have not received my refund of ₹15,999. It was a Diwali purchase from October. The carrier picked up the return on February 5. I have called 3 times and each time I am told to keep waiting. This is completely unacceptable.",
     "order_context": {
       "order_id": "ORD-2025-42000",
       "order_date": "2025-10-29",
@@ -382,7 +382,7 @@
     "customer_name": "Dhruv Kapoor",
     "customer_email": "dhruv.kapoor@gmail.com",
     "customer_tier": "bronze",
-    "ticket_text": "Kya Bangalore mein same-day delivery milti hai? Cutoff time kya hai aur kitna charge hoga? Aur kya marketplace sellers ke items par bhi same-day delivery milti hai?",
+    "ticket_text": "Do you offer same-day delivery in Bangalore? If yes, what is the order cutoff time and how much does it cost? Also, does same-day delivery apply to products from marketplace sellers or only platform-direct items?",
     "order_context": null
   }
 ]

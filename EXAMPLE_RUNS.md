@@ -14,7 +14,7 @@ Three documented end-to-end resolutions demonstrating the system's ability to ha
   "ticket_id": "TKT-005",
   "customer_name": "Ananya Singh",
   "customer_tier": "bronze",
-  "ticket_text": "Maine ek week pehle swimsuit kharida tha par size galat hai. Tags nahi utaare, ghar mein sirf try on kiya. Exchange chahiye. Lekin site par swimwear non-returnable likha hai. Maine bahar kahi nahi pehna, yeh toh unfair hai.",
+  "ticket_text": "I bought a swimsuit last week but it does not fit. I have not removed the tags or worn it outside, just tried it on indoors. I would like to exchange it for a different size. However, I noticed your site says swimwear is non-returnable. I have not used it at all, this seems unfair.",
   "order_context": {
     "order_id": "ORD-2026-44890",
     "order_date": "2026-03-21",
@@ -53,7 +53,7 @@ Three documented end-to-end resolutions demonstrating the system's ability to ha
   "ticket_id": "TKT-006",
   "customer_name": "Vikram Nair",
   "customer_tier": "bronze",
-  "ticket_text": "Mere credit card par ₹28,999 aur ₹17,999 ke do charges dikh rahe hain, lekin maine sirf ek order ₹28,999 ka kiya tha. Doosra purchase maine nahi kiya. Kisi ne mera account hack kiya hoga. Turant investigate karo.",
+  "ticket_text": "I see two charges on my credit card — ₹28,999 and ₹17,999 — but I only placed one order for ₹28,999. I did NOT make the second purchase. Someone may have hacked my account. Please investigate immediately and refund the unauthorized charge.",
   "order_context": {
     "order_id": "ORD-2026-45901",
     "order_date": "2026-03-26",
@@ -91,7 +91,7 @@ Three documented end-to-end resolutions demonstrating the system's ability to ha
   "ticket_id": "TKT-012",
   "customer_name": "Suresh Pillai",
   "customer_tier": "bronze",
-  "ticket_text": "Kya main crypto se gaming PC khareed sakta hoon? Aur agar crypto se payment kiya aur return karna pada toh refund kaisa hoga?",
+  "ticket_text": "Can I pay with cryptocurrency for a gaming PC? Also, if I pay with crypto and need to return it later, how does the refund process work?",
   "order_context": null
 }
 ```
